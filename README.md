@@ -2,14 +2,15 @@
 
 There is a regression in IDEA 2017.3 where IDEA doesn't always compile shared sources.  I've made a minimal example that triggers the bug.
 
-1. Make two copies of this repo 
+#### 1. Make two copies of this repo 
 
 ```
 git clone git@github.com:mgilbertnz/idea-scalajs-bug.git test2017.2
 git clone git@github.com:mgilbertnz/idea-scalajs-bug.git test2017.3
 ```
 
-2. Test with IDEA 2017.2.  The specific version I am using is:
+#### 2. Demonstrate success with IDEA 2017.2.
+The specific version I am using is:
 ```
 IDEA 2017.2.6
 Build #IC-172.4574.11, built on November 14, 2017
@@ -38,7 +39,8 @@ Back in IDEA,
 - Build should work fine
 
 
-3. Demonstrate failure with IDEA 2017.3.  The specific version I am using is:
+#### 3. Demonstrate failure with IDEA 2017.3.
+The specific version I am using is:
 ```
 IDEA 2017.3.2
 Build #IC-173.4127.27, built on December 26, 2017
